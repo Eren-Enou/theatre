@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+}
+
+.header {
+    background-color: black;
+    padding-top:20px;
+    padding-bottom: 100px;
+}
+
+.header h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding-left:5vh;
+}
+
+.header a:link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:13px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:13px;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-color: black;
+    background-image: url("/images/theater-image-background.png");
+    margin:auto;
+    width:100%;
+    height:auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    margin-top:-1vh;
+}
+
+.hero-text {
+    color:white;
+    text-align:center;
+    font-size:90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.date {
+    border: 1px gray solid;
+    background-color:lightgray;
+    width:73%;
+    margin:auto;
+    margin-top: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.raisin {
+    margin-top:2vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid white;
+}
+
+.raisin h4 {
+    margin-left:7vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.raisin p {
+    margin-left:7vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.raisin img {
+    margin:auto;
+    width:100%;
+    height:auto;
+}
+
+.raisin input[type=button] {
+    background-color: rgb(233, 181, 49);
+    color:white;
+    border:1px solid rgb(157, 157, 157);
+    padding:1em;
+    border-radius:4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    background-color:black;
+    padding-top:2vh;
+    color:white;
+    padding-bottom:2vh;
+    padding-left:5vh;
+}
+
+.footer img {
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+.footer h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.footer a:link{
+    color:white;
+    text-decoration:none;
+    font-size: 13px;
+}
+
+.footer a:hover{
+    color:white;
+    text-decoration:underline;
+    font-size: 13px;
+}
