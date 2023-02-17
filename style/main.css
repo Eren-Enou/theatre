@@ -18,19 +18,11 @@ body {
     padding-left:5vh;
 }
 
-.header a:link {
+.header a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     font-size:13px;
     text-decoration:none;
-    text-transform: uppercase;
-}
-
-.header a:hover {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
-    font-size:13px;
-    text-decoration:underline;
     text-transform: uppercase;
 }
 
@@ -63,7 +55,7 @@ body {
 }
 
 .raisin {
-    margin-top:2vh;
+    margin-top:20px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -71,11 +63,11 @@ body {
 }
 
 .raisin h4 {
-    margin-left:7vh;
+    margin-left:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .raisin p {
-    margin-left:7vh;
+    margin-left:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -86,20 +78,20 @@ body {
 }
 
 .raisin input[type=button] {
-    background-color: rgb(233, 181, 49);
+    background-color: rgb(228, 176, 45);
     color:white;
-    border:1px solid rgb(157, 157, 157);
+    border:1px solid rgb(146, 146, 146);
     padding:1em;
-    border-radius:4%;
+    border-radius:3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footer {
     background-color:black;
-    padding-top:2vh;
+    padding-top:20px;
     color:white;
-    padding-bottom:2vh;
-    padding-left:5vh;
+    padding-bottom:20px;
+    padding-left:50px;
 }
 
 .footer img {
@@ -117,14 +109,8 @@ body {
     font-size: 13px;
 }
 
-.footer a:link{
+.footer a{
     color:white;
     text-decoration:none;
-    font-size: 13px;
-}
-
-.footer a:hover{
-    color:white;
-    text-decoration:underline;
-    font-size: 13px;
+    font-size: 12px;
 }
